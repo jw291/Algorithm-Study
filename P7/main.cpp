@@ -1,15 +1,21 @@
-//
-//  main.cpp
-//  P7
-//
-//  Created by jaewon na on 2021/06/16.
-//  Copyright © 2021 jaewon na. All rights reserved.
-//
-
 #include <iostream>
+#include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    char str[101], copy[101];// \0까지 저장
+    int i,p =0;
+    //scanf("%s",str); 공백 입력 못받음
+    gets(str);
+    
+    for(i = 0; str[i] != '\0'; i++){
+        if(str[i] != ' '){
+            if(str[i] >=65 && str[i] <= 90)
+            {
+                copy[p++] = str[i] + 32;
+            }else copy[p++] = str[i];
+        }
+    }
+    copy[p] = '\0';
+    printf("%s",copy);
     return 0;
 }

@@ -110,6 +110,7 @@
 		ABE725012679D8ED00532944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		ABE725062679D8F500532944 /* 스크린샷 2021-06-16 오후 3.59.11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "스크린샷 2021-06-16 오후 3.59.11.png"; sourceTree = "<group>"; };
 		ABE725072679F93C00532944 /* 아스키코드표.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "아스키코드표.png"; sourceTree = "<group>"; };
+		ABE72508267A03A800532944 /* 스크린샷 2021-06-16 오후 7.02.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "스크린샷 2021-06-16 오후 7.02.10.png"; path = "../../../../../../../var/folders/fh/xcnp3shx04bfdzj9wh4wz_b40000gn/T/TemporaryItems/(screencaptureui이(가) 문서 저장 중 174)/스크린샷 2021-06-16 오후 7.02.10.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +255,7 @@
 		ABE724F42679D8A900532944 /* P7 */ = {
 			isa = PBXGroup;
 			children = (
+				ABE72508267A03A800532944 /* 스크린샷 2021-06-16 오후 7.02.10.png */,
 				ABE724F52679D8A900532944 /* main.cpp */,
 			);
 			path = P7;

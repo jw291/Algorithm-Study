@@ -9,6 +9,8 @@ int main() {
     
     scanf("%s",&addr);
     
+    cout << 1900 + ((addr[0]-48)*10) + (addr[1]-48) << endl;
+    
     if(addr[7] == '1' || addr[8] == '2') year = 1900 + ((addr[0]-48)*10) + (addr[1]-48);
     else year = 2000 + ((addr[0]-48)*10) + (addr[1]-48);
         
