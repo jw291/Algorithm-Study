@@ -1,6 +1,6 @@
 //
 //  main.cpp
-//  Algorithm Study
+//  P7
 //
 //  Created by jaewon na on 2021/06/16.
 //  Copyright © 2021 jaewon na. All rights reserved.
