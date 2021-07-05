@@ -3,7 +3,7 @@
 #include<algorithm>
 using namespace std;
 int main() {
-    int map[19][19] = {0}; //전역을 안하면 초기화 해줘야함
+    int map[19][19]; //전역을 안하면 초기화 해줘야함
     int n, m, a, b, c, i, j;
     
     scanf("%d %d", &n, &m);
