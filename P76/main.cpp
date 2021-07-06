@@ -1,7 +1,23 @@
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int dy[21][21]; //1. 0으로 초기화 돼있었는데
+int DFS(int n, int r){
+    if(dy[n][r] > 0) return dy[n][r];//3. 곧바로 리턴한다(이미 구했다고 생각하고)
+    if(n==r || r == 0) return 1;
+    else return dy[n][r] = DFS(n-1,r-1)+DFS(n-1,r); //2. 값이 들어갔다면
+    //nCr = n-1Cr-1 + n-1Cr
+    //[1 2 3]에서 2개를 뽑는 경우의 수는
+    //3을 미리 뽑아두고 나머지 [1,2]중에서 1개를 뽑는 경우와
+    //3을 뽑지 않고 나머지 [1,2]중에서 2개를 뽑는 경우의 수의 합으로 볼 수 있다.
+    //이 성질을 이용해서 n과 r이 같아지거나 r==0이될 때까지 재귀를 한다
+    //n과 r이 같아지거나 r==0이되면 값은 1이다.
+    //가지를 뻗어 나가다가 이미 구한 경우의 수가 또 나타난다면 굳이 계산하지 않고
+    //저장해뒀다가 곧바로 리턴한다.
+}
+
+int main() {
+    int n,r;
+    scanf("%d %d",&n,&r);
+    printf("%d\n",DFS(n,r));
     return 0;
 }
