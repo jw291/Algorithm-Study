@@ -7,6 +7,7 @@
 using namespace std;
 
 //최소힙 -붙이는 아이디어
+//operator로도 가능
 int main() {
     int a;
     priority_queue<int> pQ; //알아서 맥스힙 구조로 바뀌나봄

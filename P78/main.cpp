@@ -25,10 +25,10 @@ struct Edge{
         val = c;
     }
     
-    bool operator<(Edge &ref){ //kruskal MST는 간선을 정렬함
+    bool operator<(const Edge &ref)const{ //kruskal MST는 간선을 정렬함
         return val < ref.val;
     }
-}
+};
 
 int Find(int v){
     if(v==unf[v]) return v;
@@ -63,10 +63,21 @@ int main() {
             Union(Ed[i].v1,Ed[i].v2); //집합 연결시켜주기
         }
     }
-    cin >> a >> b;
-    a= Find(a);//같은 집합에 속한 학생들은 같은 집합번호(루트학생 번호)를 리턴한다.
-    b= Find(b);
-    if(a==b) cout<<"YES";
-    else cout<<"NO";
+    printf("%d",res);
     return 0;
 }
+/*
+9 12
+1 2 12
+1 9 25
+2 3 10
+2 8 17
+2 9 8
+3 4 18
+3 7 55
+4 5 44
+5 6 60
+5 7 38
+7 8 35
+8 9 15
+ */
