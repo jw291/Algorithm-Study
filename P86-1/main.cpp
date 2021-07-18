@@ -33,6 +33,7 @@ void DFS(int s, int L){
         for(int i = 0; i < hs.size(); i++){
             dis = 2147000000;//min함수를 사용하는 방법.
             for(int j = 0; j < L; j++){
+                
                 dis = min(dis,abs(hs[i].first-pz[ch[j]].first)+abs(hs[i].second-pz[ch[j]].second));
                 
             }
