@@ -14,6 +14,21 @@
 			<key>orderHint</key>
 			<integer>87</integer>
 		</dict>
+		<key>DP-10.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>100</integer>
+		</dict>
+		<key>DP-11.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>101</integer>
+		</dict>
+		<key>DP-13.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>103</integer>
+		</dict>
 		<key>DP-2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -48,6 +63,21 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>24</integer>
+		</dict>
+		<key>DP-9.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>99</integer>
+		</dict>
+		<key>DP12 copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>104</integer>
+		</dict>
+		<key>DP12.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>102</integer>
 		</dict>
 		<key>P1.xcscheme_^#shared#^_</key>
 		<dict>
